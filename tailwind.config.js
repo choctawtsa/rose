@@ -14,6 +14,8 @@ module.exports = {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         display: ['Poppins', 'Inter', ...defaultTheme.fontFamily.sans]
       },
+      maxWidth: {
+        '8xl': '90rem'
       }
     },
   },
