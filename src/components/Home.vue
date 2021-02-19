@@ -460,6 +460,147 @@
       </div>
     </div>
   </div>
+  <div
+    class="flex flex-col-reverse items-center mx-auto pb-32 lg:flex-row lg:pl-16 lg:pr-10 xl:items-stretch 2xl:container"
+  >
+    <div class="relative mt-16 sm:max-w-sm lg:mt-0">
+      <div class="absolute inset-0 bg-white shadow-2xl sm:rounded-2xl"></div>
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-pink-500 to-orange-500 transform -skew-y-8 sm:skew-y-0 sm:-rotate-10 sm:rounded-2xl"
+      ></div>
+      <div
+        class="relative flex flex-col justify-center w-screen h-full px-9 pt-20 pb-16 bg-white sm:w-auto sm:rounded-2xl text-center"
+      >
+        <div>
+          <span class="font-semibold tracking-wide text-gray-700 uppercase"
+            >No higher than</span
+          >
+          <div class="flex items-center justify-center mt-3">
+            <span class="font-bold text-gray-900 font-display text-7xl"
+              >$11</span
+            >
+            <span class="ml-3 font-semibold text-gray-500">per user/month</span>
+          </div>
+          <div class="w-48 mx-auto my-12 bg-gray-200 h-2px"></div>
+          <button
+            class="flex justify-center w-full max-w-xs mx-auto mb-4 px-4 py-4 bg-gray-900 rounded-lg hover:bg-gray-800 sm:w-72"
+          >
+            <span class="text-gray-400">
+              <svg
+                class="w-6 h-6"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"
+                /></svg
+            ></span>
+            <span class="ml-2 text-white">Calculate my price</span>
+          </button>
+          <span class="text-sm text-gray-500"
+            >This should only take a few minutes.</span
+          >
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex-1 px-6 border-gray-200 sm:px-10 lg:pl-16 lg:pr-0 xl:ml-16 xl:p-12 xl:border-3 rounded-2xl 2xl:ml-28"
+    >
+      <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl font-display">
+        Transparent pricing
+      </h2>
+      <p class="mt-4 text-gray-500">
+        Our pricing is simple and easy. When customized with all features
+        enabled, Rose costs the listed price. As you disable features, however,
+        the cost of your plan will go down.
+      </p>
+      <p class="mt-6 mb-10 text-gray-500">
+        Additionally, the price you see at checkout is the price you’ll be
+        billed, no surprise fees added.
+      </p>
+      <span
+        class="text-sm font-semibold tracking-wide text-transparent uppercase bg-clip-text bg-gradient-to-r from-pink-500 to-orange-500"
+        >What's included for all plans</span
+      >
+      <div class="mt-10 grid sm:grid-cols-2 gap-x-4 gap-y-10">
+        <div class="flex items-center">
+          <div class="text-green-500">
+            <svg
+              class="w-5 h-5"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <p class="ml-4 text-gray-700">World-class security and privacy</p>
+        </div>
+        <div class="flex items-center">
+          <div class="text-green-500">
+            <svg
+              class="w-5 h-5"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <p class="ml-4 text-gray-700">24/7 support availability</p>
+        </div>
+        <div class="flex items-center">
+          <div class="text-green-500">
+            <svg
+              class="w-5 h-5"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <p class="ml-4 text-gray-700">
+            99.98% uptime and amazing reliability
+          </p>
+        </div>
+        <div class="flex items-center">
+          <div class="text-green-500">
+            <svg
+              class="w-5 h-5"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <p class="ml-4 text-gray-700">Access to training materials</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>

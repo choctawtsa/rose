@@ -6,6 +6,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      borderWidth: {
+        3: "3px",
+      },
       colors: {
         gray: colors.warmGray,
         orange: colors.orange,
@@ -16,6 +19,12 @@ module.exports = {
       },
       maxWidth: {
         "8xl": "90rem",
+      },
+      rotate: {
+        "-10": "-10deg",
+      },
+      skew: {
+        "-8": "-8deg",
       },
       spacing: {
         "2px": "2px",
