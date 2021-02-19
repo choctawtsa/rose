@@ -16,7 +16,7 @@
       </button>
     </div>
   </div>
-  <div class="flex items-center justify-between mx-auto lg:px-16 xl:px-20 2xl:max-w-8xl mt-28">
+  <div class="flex items-center justify-between mx-auto lg:px-16 xl:px-20 2xl:px-0 2xl:max-w-8xl mt-28">
     <div>
       <h1 class="font-bold text-white lg:max-w-lg lg:text-5xl lg:leading-tight xl:max-w-2xl xl:text-6xl xl:leading-snug 2xl:max-w-4xl 2xl:leading-tight 2xl:text-7xl font-display">A medical platform for the digital age</h1>
       <p class="text-white lg:max-w-xl lg:mt-4 lg:pr-4 lg:text-xl xl:max-w-xl xl:pr-0 xl:text-lg 2xl:max-w-3xl 2xl:mt-8 2xl:text-2xl opacity-80">Meet the easiest way to manage patients, conduct virtual visits, and give patients easy and instant access to all of their data.</p>
