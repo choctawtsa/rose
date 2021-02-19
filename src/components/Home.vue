@@ -280,6 +280,186 @@
       </div>
     </div>
   </header>
+  <div
+    class="container mx-auto px-6 pt-12 pb-16 bg-white md:px-10 md:pt-16 md:pb-24 xl:pt-20 xl:pb-32"
+  >
+    <div class="text-center">
+      <span
+        class="text-lg font-semibold tracking-wider text-transparent uppercase md:text-xl xl:text-2xl bg-clip-text bg-gradient-to-r from-pink-500 to-orange-500"
+        >Built for digital</span
+      >
+      <h2
+        class="mt-2 text-3xl font-bold leading-tight text-gray-900 md:text-4xl xl:text-5xl font-display"
+      >
+        Medical treatment transformed
+      </h2>
+      <p
+        class="max-w-5xl mx-auto mt-4 text-lg text-gray-500 md:text-xl xl:mt-6 xl:text-2xl"
+      >
+        It’s about time the medical world caught up with the rest of the digital
+        world, and Rose makes that a reality.
+      </p>
+    </div>
+    <div
+      class="mt-14 overflow-hidden rounded-lg grid md:grid-cols-2 lg:grid-cols-3 gap-2px"
+    >
+      <div class="p-8 bg-gray-100 xl:p-10">
+        <div
+          class="w-10 h-10 p-2 text-white rounded shadow-md md:w-12 md:h-12 bg-gradient-to-tr from-pink-500 to-orange-500"
+        >
+          <svg
+            class="w-6 h-6 md:w-8 md:h-8"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">
+          World-class security and privacy
+        </h3>
+        <p class="mt-8 text-base text-gray-700">
+          Rose was built with security at the forefront of our design; rest
+          assured that the only people with access to patient data are patients
+          and their doctors.
+        </p>
+      </div>
+      <div class="p-8 bg-gray-100 xl:p-10">
+        <div
+          class="w-10 h-10 p-2 text-white rounded shadow-md md:w-12 md:h-12 bg-gradient-to-tr from-pink-500 to-orange-500"
+        >
+          <svg
+            class="w-6 h-6 md:w-8 md:h-8"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">
+          Manage appointments
+        </h3>
+        <p class="mt-8 text-base text-gray-700">
+          Online appointment scheduling, automatic recurring appointments, and
+          more are all just a few clicks away, reducing headaches for both
+          patients and your institution’s staff.
+        </p>
+      </div>
+      <div class="p-8 bg-gray-100 xl:p-10">
+        <div
+          class="w-10 h-10 p-2 text-white rounded shadow-md md:w-12 md:h-12 bg-gradient-to-tr from-pink-500 to-orange-500"
+        >
+          <svg
+            class="w-6 h-6 md:w-8 md:h-8"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">
+          Conduct care online
+        </h3>
+        <p class="mt-8 text-base text-gray-700">
+          Rose has built-in support for video conferencing, audio calls,
+          messaging, and more, so you can care for patients during the pandemic
+          without compromising their safety or the safety of your staff.
+        </p>
+      </div>
+      <div class="p-8 bg-gray-100 xl:p-10">
+        <div
+          class="w-10 h-10 p-2 text-white rounded shadow-md md:w-12 md:h-12 bg-gradient-to-tr from-pink-500 to-orange-500"
+        >
+          <svg
+            class="w-6 h-6 md:w-8 md:h-8"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 2a1 1 0 00-1 1v1a1 1 0 002 0V3a1 1 0 00-1-1zM4 4h3a3 3 0 006 0h3a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm2.5 7a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm2.45 4a2.5 2.5 0 10-4.9 0h4.9zM12 9a1 1 0 100 2h3a1 1 0 100-2h-3zm-1 4a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">
+          Patients have access to their own data
+        </h3>
+        <p class="mt-8 text-base text-gray-700">
+          With Rose, your patients will have easy, secure, and transparent
+          access to all of their medical history, including ailments,
+          medications, and more, at their fingertips.
+        </p>
+      </div>
+      <div class="p-8 bg-gray-100 xl:p-10">
+        <div
+          class="w-10 h-10 p-2 text-white rounded shadow-md md:w-12 md:h-12 bg-gradient-to-tr from-pink-500 to-orange-500"
+        >
+          <svg
+            class="w-6 h-6 md:w-8 md:h-8"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M5.5 13a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 13H11V9.413l1.293 1.293a1 1 0 001.414-1.414l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13H5.5z"
+            />
+            <path d="M9 13h2v5a1 1 0 11-2 0v-5z" />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">
+          Easy onboarding
+        </h3>
+        <p class="mt-8 text-base text-gray-700">
+          Bring in patient and staff data from dozens of existing supported
+          platforms with little hassle. If your institution’s platform isn’t yet
+          supported, we’ll help you come up with a migration plan.
+        </p>
+      </div>
+      <div class="p-8 bg-gray-100 xl:p-10">
+        <div
+          class="w-10 h-10 p-2 text-white rounded shadow-md md:w-12 md:h-12 bg-gradient-to-tr from-pink-500 to-orange-500"
+        >
+          <svg
+            class="w-6 h-6 md:w-8 md:h-8"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">
+          Completely customizable
+        </h3>
+        <p class="mt-8 text-base text-gray-700">
+          Control everything in your institution’s deployment. You can disable
+          or enable nearly every feature to fit the needs of your institution,
+          like disabling virtual care if that’s not a service you provide.
+        </p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
