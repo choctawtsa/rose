@@ -461,7 +461,7 @@
     </div>
   </div>
   <div
-    class="flex flex-col-reverse items-center mx-auto pb-32 lg:flex-row lg:pl-16 lg:pr-10 xl:items-stretch 2xl:container"
+    class="flex flex-col-reverse items-center mx-auto sm:pb-32 lg:flex-row lg:pl-16 lg:pr-10 xl:items-stretch 2xl:container"
   >
     <div class="relative mt-16 sm:max-w-sm lg:mt-0">
       <div class="absolute inset-0 bg-white shadow-2xl sm:rounded-2xl"></div>
@@ -601,6 +601,58 @@
       </div>
     </div>
   </div>
+  <div class="w-full pt-16 bg-gray-800 md:pb-20 lg:pt-20 lg:pb-24">
+    <div class="container mx-auto lg:px-10">
+      <div class="px-6 md:px-10 lg:px-0">
+        <h2
+          class="text-4xl font-bold text-white lg:text-5xl text-center font-display"
+        >
+          Always online, so you can be too
+        </h2>
+        <p
+          class="mx-auto mt-6 text-xl text-gray-400 lg:text-2xl max-w-7xl text-center"
+        >
+          Never worry about tech getting in the way of care. Rose’s
+          industry-leading reliability and uptime means you’ll always be able to
+          provide the care your patients require.
+        </p>
+      </div>
+      <div
+        class="mt-10 overflow-hidden lg:rounded-lg grid md:grid-cols-3 gap-2px"
+      >
+        <div
+          class="flex flex-col items-center justify-center py-9 bg-gray-900 text-center"
+        >
+          <span class="text-6xl font-bold text-white font-display lg:text-7xl"
+            >99.98%</span
+          >
+          <span class="text-2xl font-medium text-gray-500 lg:text-3xl"
+            >Uptime</span
+          >
+        </div>
+        <div
+          class="flex flex-col items-center justify-center py-9 bg-gray-900 text-center"
+        >
+          <span class="text-6xl font-bold text-white font-display lg:text-7xl"
+            >24/7</span
+          >
+          <span class="text-2xl font-medium text-gray-500 lg:text-3xl"
+            >Support availability</span
+          >
+        </div>
+        <div
+          class="flex flex-col items-center justify-center py-9 bg-gray-900 text-center"
+        >
+          <span class="text-6xl font-bold text-white font-display lg:text-7xl"
+            >A+</span
+          >
+          <span class="text-2xl font-medium text-gray-500 lg:text-3xl"
+            >Privacy &amp; security</span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -614,36 +666,4 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
-.hero-background {
-  background-image: linear-gradient(
-      45deg,
-      rgba(236, 72, 153, 1) 0%,
-      rgba(249, 115, 22, 1) 100%
-    ),
-    url("/home-hero-background.png");
-  background-blend-mode: overlay;
-}
-
-.menu-enter-active {
-  transition-duration: 200ms;
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.menu-leave-active {
-  transition-duration: 100ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-}
-
-.menu-enter,
-.menu-leave-to {
-  opacity: 0;
-  /* scale: 0.5; */
-}
-
-.menu-enter-to,
-.menu-leave {
-  opacity: 1;
-  /* scale: 1; */
-}
-</style>
+<style lang="css" scoped></style>
