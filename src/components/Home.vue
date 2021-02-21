@@ -653,6 +653,71 @@
       </div>
     </div>
   </div>
+  <div
+    class="container mx-auto px-6 pt-20 pb-24 sm:px-10 lg:grid lg:grid-cols-5 lg:gap-x-20"
+  >
+    <div class="lg:col-span-2">
+      <h2 class="text-4xl font-bold text-gray-900 font-display">
+        Frequently asked questions
+      </h2>
+      <p class="mt-5 text-lg text-gray-500">
+        If you can't find what you're looking for, be sure to
+        <br class="hidden sm:block" />
+        <a
+          class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-orange-500"
+          href="mailto:hello@choctawtsa.org"
+          >contact us.</a
+        >
+      </p>
+    </div>
+    <div class="mt-12 lg:mt-0 lg:col-span-3">
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900">
+          What types of institutions can purchase Rose?
+        </h3>
+        <p class="mt-5 text-gray-700">
+          Rose is available to nearly all medical institutions. Hospital
+          systems, individual hospitals, local clinics, emergency care clinics,
+          and more are all eligible to purchase Rose. Contact us with more
+          specific inquiries.
+        </p>
+      </div>
+      <div class="mt-12">
+        <h3 class="text-xl font-semibold text-gray-900">
+          Where is Rose available?
+        </h3>
+        <p class="mt-5 text-gray-700">
+          Rose is available in the United States, Canada, the European Union,
+          the United Kingdom, Australia, and New Zealand, with plans to bring
+          Rose to dozens more countries in the near future.
+        </p>
+      </div>
+      <div class="mt-12">
+        <h3 class="text-xl font-semibold text-gray-900">
+          Are there resources available to train staff?
+        </h3>
+        <p class="mt-5 text-gray-700">
+          There are many resources available to customers and potential
+          customers. We understand that you need to see Rose in action before
+          you decide to purchase it for your institution, so we host regular
+          hands-on showcases that you can attend. Additionally, hundreds of
+          training videos are available upon purchase to get your staff up to
+          speed.
+        </p>
+      </div>
+      <div class="mt-12">
+        <h3 class="text-xl font-semibold text-gray-900">
+          How secure and private is Rose?
+        </h3>
+        <p class="mt-5 text-gray-700">
+          Extremely. Every part of Rose was designed around privacy and
+          security. For example, patient data is securely encrypted on our
+          servers, and it cannot be accessed by anyone but the patient, the
+          patient’s doctor, and anyone else the patient explicitly allows.
+        </p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
