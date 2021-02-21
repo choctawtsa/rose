@@ -481,7 +481,7 @@
             >
             <span class="ml-3 font-semibold text-gray-500">per user/month</span>
           </div>
-          <div class="w-48 mx-auto my-12 bg-gray-200 h-2px"></div>
+          <div class="w-48 mx-auto mt-10 mb-12 bg-gray-200 h-2px"></div>
           <button
             class="flex justify-center w-full max-w-xs mx-auto mb-4 px-4 py-4 bg-gray-900 rounded-lg hover:bg-gray-800 sm:w-72"
           >
