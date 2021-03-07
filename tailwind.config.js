@@ -5,6 +5,14 @@ module.exports = {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      xs: "448px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       borderWidth: {
         3: "3px",
@@ -28,6 +36,8 @@ module.exports = {
       },
       spacing: {
         "2px": "2px",
+        18: "4.5rem",
+        30: "7.5rem",
       },
     },
   },

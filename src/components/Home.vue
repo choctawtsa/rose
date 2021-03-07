@@ -655,6 +655,7 @@
   </div>
   <div
     class="container mx-auto px-6 pt-20 pb-24 sm:px-10 lg:grid lg:grid-cols-5 lg:gap-x-20"
+    id="faq"
   >
     <div class="lg:col-span-2">
       <h2 class="text-4xl font-bold text-gray-900 font-display">
