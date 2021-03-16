@@ -363,14 +363,20 @@
     <footer class="bg-gray-100">
       <div>
         <div class="container mx-auto px-6 pt-5 pb-7 sm:px-10">
-          <div class="mb-10 sm:flex sm:items-center sm:justify-between sm:mb-2">
-            <img
-              class="h-12 mx-auto sm:mx-0"
-              src="/logo-gradient.svg"
-              alt="Rose logo"
-            />
+          <div class="md:flex md:items-center md:justify-between">
+            <div>
+              <img
+                class="h-12 mx-auto mb-2 md:mx-0"
+                src="/logo-gradient.svg"
+                alt="Rose logo"
+              /><span
+                class="block mx-auto text-sm text-gray-500 md:inline md:mx-0 text-center md:text-left"
+                >&copy; Rose Medical, Inc. All rights reserved.</span
+              >
+            </div>
+
             <nav
-              class="mt-6 sm:mt-0 space-x-6 text-center sm:space-x-8 md:space-x-10"
+              class="mt-6 md:mt-0 space-x-4 text-center sm:space-x-8 md:space-x-10"
             >
               <router-link class="text-gray-500 hover:text-gray-700" to="/"
                 >Home</router-link
@@ -390,10 +396,6 @@
               >
             </nav>
           </div>
-          <span
-            class="block mx-auto text-sm text-gray-500 sm:inline sm:mx-0 text-center sm:text-left"
-            >&copy; Rose Medical, Inc. All rights reserved.</span
-          >
         </div>
       </div>
     </footer>
