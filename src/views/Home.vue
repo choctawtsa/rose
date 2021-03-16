@@ -52,7 +52,7 @@
           <p class="text-xs text-gray-500">
             By signing up, you are agreeing to our
             <router-link
-              to="/privacy-policy"
+              to="/legal/privacy-policy"
               class="font-semibold text-gray-600"
               >Privacy Policy</router-link
             >

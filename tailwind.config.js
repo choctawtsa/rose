@@ -39,6 +39,32 @@ module.exports = {
         18: "4.5rem",
         30: "7.5rem",
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: [
+            {
+              h1: {
+                fontFamily: `${theme("fontFamily.display")}`,
+              },
+              h2: {
+                fontFamily: `${theme("fontFamily.display")}`,
+              },
+              h3: {
+                fontFamily: `${theme("fontFamily.display")}`,
+              },
+              h4: {
+                fontFamily: `${theme("fontFamily.display")}`,
+              },
+              h5: {
+                fontFamily: `${theme("fontFamily.display")}`,
+              },
+              h6: {
+                fontFamily: `${theme("fontFamily.display")}`,
+              },
+            },
+          ],
+        },
+      }),
     },
   },
   variants: {
