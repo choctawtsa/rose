@@ -253,16 +253,14 @@
               class="w-full mt-4 px-2 border border-gray-200 shadow-sm h-11 rounded-md"
               placeholder="Email address"
             />
-          </form>
-          <div class="h-px mx-auto my-6 bg-gray-200 lg:my-9 w-60"></div>
-          <button
-            class="w-full py-3 bg-white rounded shadow-lg hover:bg-gray-100"
-          >
-            <span
-              class="font-medium text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-orange-500"
-              >Sign me up</span
+            <div class="h-px mx-auto my-6 bg-gray-200 lg:my-9 w-60"></div>
+            <button
+              class="w-full py-3 bg-gray-900 rounded shadow-lg hover:bg-gray-800"
+              type="submit"
             >
-          </button>
+              <span class="font-medium text-white">Sign me up</span>
+            </button>
+          </form>
         </div>
         <div
           class="px-6 py-5 bg-gray-100 border-t-2 border-gray-200 rounded-b-lg lg:px-9 lg:py-6"
@@ -500,7 +498,7 @@
                   d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"
                 /></svg
             ></span>
-            <span class="ml-2 text-white">Calculate my price</span>
+            <span class="ml-2 font-medium text-white">Calculate my price</span>
           </button>
           <span class="text-sm text-gray-500"
             >This should only take a few minutes.</span
