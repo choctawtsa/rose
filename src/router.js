@@ -1,8 +1,8 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from "./views/Home.vue";
+import Newsroom from "./views/Newsroom.vue";
 import Company from "./views/Company.vue";
 import About from "./views/About.vue";
-
 import PrivacyPolicy from "./views/legal/PrivacyPolicy.vue";
 const history = createWebHistory();
 const routes = [
@@ -10,6 +10,10 @@ const routes = [
     path: "/",
     name: "home",
     component: Home,
+  },
+  {
+    path: "/newsroom",
+    component: Newsroom,
   },
   {
     path: "/company",

@@ -2,7 +2,7 @@
   <div
     class="flex items-center justify-between px-4 sm:px-8 lg:px-12 xl:px-16 2xl:px-36"
   >
-    <div class="flex-1 w-0">
+    <div class="flex-1 w-0 -mt-2">
       <router-link to="/">
         <img class="h-10 lg:h-14" src="/logo-white.svg" alt="Rose logo" />
       </router-link>

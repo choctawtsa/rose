@@ -1,10 +1,9 @@
 <template>
-  <alt-navigation-menu />
-  <!-- <header class="relative pt-4 sm:pt-6">
+  <header class="relative py-4 bg-white shadow sm:py-6">
     <div
       class="flex items-center justify-between px-4 sm:px-8 lg:px-12 xl:px-16 2xl:px-36"
     >
-      <div class="flex-1 w-0">
+      <div class="flex-1 w-0 -mt-2">
         <router-link to="/">
           <img class="h-10 lg:h-14" src="/logo-gradient.svg" alt="Rose logo" />
         </router-link>
@@ -97,6 +96,7 @@
                   class="inline-flex items-center justify-center p-2 text-gray-400 bg-white hover:text-gray-500 hover:bg-gray-100 focus:outline-none rounded-md focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                 >
                   <span class="sr-only">Close menu</span>
+                  <!-- Heroicon name: outline/x -->
                   <svg
                     class="w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -228,57 +228,15 @@
         </div>
       </div>
     </transition>
-  </header> -->
-  <main
-    class="mx-auto px-4 pt-20 pb-64 sm:px-0 sm:max-w-screen-sm md:max-w-screen-md"
-  >
-    <h1
-      class="text-4xl font-bold text-gray-900 sm:text-5xl font-display text-center"
-    >
-      Privacy Policy
-    </h1>
-    <div
-      class="w-24 h-1 mx-auto my-6 bg-gradient-to-r from-pink-500 to-orange-500"
-    ></div>
-    <div class="mx-auto pt-8 prose sm:prose-lg">
-      <p>
-        Just like our products, our Privacy Policy is simple. We've written it
-        in plain, easily-understandable English so that you know exactly what
-        goes on with your data.
-      </p>
-      <p>It's fairly simple:</p>
-      <ul>
-        <li>
-          When you sign up for the Newsletter, the name and email you provide is
-          stored securely in our database.
-        </li>
-        <li>The data you provide is not accessible to employees.</li>
-        <li>
-          Your data stays at Rose. We don't share your name or email with any
-          third-party services or advertisers.
-        </li>
-        <li>
-          This data will <i>only</i> be used for purposes related to you
-          receiving the Newsletter.
-        </li>
-      </ul>
-      <p>That's all there is to it. It's simple, easy, secure, and private.</p>
-    </div>
-  </main>
-  <site-footer />
+  </header>
 </template>
 
 <script>
-import AltNavigationMenu from "../../components/AltNavigationMenu.vue";
-import SiteFooter from "../../components/SiteFooter.vue";
-
 export default {
-  components: {
-    AltNavigationMenu,
-    SiteFooter,
-  },
   data() {
-    return { menuOpen: false };
+    return {
+      menuOpen: false,
+    };
   },
 };
 </script>
