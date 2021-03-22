@@ -209,9 +209,9 @@
           Easy onboarding
         </h3>
         <p class="mt-8 text-base text-gray-700">
-          Bring in patient and staff data from dozens of existing supported
-          platforms with little hassle. If your institution’s platform isn’t yet
-          supported, we’ll help you come up with a migration plan.
+          Bring in patient and staff data from dozens of existing platforms with
+          little hassle. If your institution’s platform isn’t yet supported,
+          we’ll help you come up with a migration plan.
         </p>
       </div>
       <div class="p-8 bg-gray-100 xl:p-10">
@@ -264,7 +264,8 @@
             <span class="ml-3 font-semibold text-gray-500">per user/month</span>
           </div>
           <div class="w-48 mx-auto mt-10 mb-12 bg-gray-200 h-2px"></div>
-          <button
+          <a
+            href="mailto:hello@choctawtsa.org"
             class="flex justify-center w-full max-w-xs mx-auto mb-4 px-4 py-4 bg-gray-900 rounded-lg hover:bg-gray-800 sm:w-72"
           >
             <span class="text-gray-400">
@@ -279,13 +280,14 @@
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"
-                /></svg
-            ></span>
-            <span class="ml-2 font-medium text-white">Calculate my price</span>
-          </button>
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </span>
+            <span class="ml-2 font-medium text-white">Get a quote</span>
+          </a>
           <span class="text-sm text-gray-500"
-            >This should only take a few minutes.</span
+            >We'll get back to you quickly.</span
           >
         </div>
       </div>

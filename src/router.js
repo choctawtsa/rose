@@ -4,6 +4,9 @@ import Newsroom from "./views/Newsroom.vue";
 import Company from "./views/Company.vue";
 import About from "./views/About.vue";
 import PrivacyPolicy from "./views/legal/PrivacyPolicy.vue";
+import RoseInCanada from "./views/newsroom/RoseInCanada.vue";
+import NewBoardMember from "./views/newsroom/NewBoardMember.vue";
+import CarbonNeutralityPledge from "./views/newsroom/CarbonNeutralityPledge.vue";
 const history = createWebHistory();
 const routes = [
   {
@@ -27,6 +30,18 @@ const routes = [
     path: "/legal/privacy-policy",
     component: PrivacyPolicy,
   },
+  {
+    path: "/newsroom/rose-launches-in-canada",
+    component: RoseInCanada
+  },
+  {
+    path: "/newsroom/amanda-taylor-joins-rose-board-of-directors",
+    component: NewBoardMember
+  },
+  {
+    path: "/newsroom/rose-commits-to-be-carbon-neutral-by-2022",
+    component: CarbonNeutralityPledge
+  }
 ];
 
 const router = createRouter({
