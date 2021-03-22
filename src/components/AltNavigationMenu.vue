@@ -3,7 +3,7 @@
     <div
       class="flex items-center justify-between px-4 sm:px-8 lg:px-12 xl:px-16 2xl:px-36"
     >
-      <div class="flex-1 w-0 -mt-2">
+      <div class="flex-1 w-0 sm:-mt-2">
         <router-link to="/">
           <img class="h-10 lg:h-14" src="/logo-gradient.svg" alt="Rose logo" />
         </router-link>
@@ -18,7 +18,7 @@
         >
         <router-link
           class="hover:text-gray-800"
-          exact-active-class="text-gray-800"
+          active-class="text-gray-800"
           to="/newsroom"
           >Newsroom</router-link
         >
@@ -36,11 +36,12 @@
         >
       </nav>
       <div class="justify-end flex-1 hidden w-0 md:flex">
-        <button
+        <a
+          href="mailto:hello@choctawtsa.org"
           class="px-4 py-2 font-medium bg-gray-900 rounded lg:px-6 lg:py-3 hover:bg-gray-800"
         >
-          <span class="text-sm text-white lg:text-base">Get my price</span>
-        </button>
+          <span class="text-sm text-white lg:text-base">Contact us</span>
+        </a>
       </div>
       <div class="relative">
         <button
@@ -217,12 +218,12 @@
           </div>
           <div class="px-5 py-6 space-y-6">
             <div>
-              <router-link
-                to="/"
+              <a
+                href="mailto:hello@choctawtsa.org"
                 class="flex items-center justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent hover:shadow bg-gradient-to-r from-pink-500 to-orange-500 rounded-md shadow-sm"
               >
-                Get my price
-              </router-link>
+                Contact us
+              </a>
             </div>
           </div>
         </div>
