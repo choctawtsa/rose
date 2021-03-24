@@ -11,13 +11,13 @@
           </h1>
           <div class="pt-12 sm:pt-8">
             <a
-              href="/docs/LEAP-Report.pdf"
+              href="/documents/plan-of-work-log.pdf"
               class="block py-2 font-medium text-gray-900 bg-white border-2 border-transparent rounded sm:inline-block sm:px-4 lg:px-6 lg:py-3 lg:text-base hover:bg-gray-200 text-center duration-100"
             >
               Plan of Work Log
             </a>
             <a
-              href="/docs/Student-Copyright-Checklist.pdf"
+              href="/documents/student-copyright-checklist.pdf"
               class="block mt-2 py-2 font-medium text-white border-2 border-transparent rounded sm:inline-block sm:mt-0 sm:ml-4 sm:px-4 lg:px-6 lg:py-3 lg:text-base hover:border-gray-500 text-center duration-100"
             >
               Copyright Checklist
@@ -29,7 +29,7 @@
     <main class="container relative mx-auto px-6 py-10 bg-white">
       <p class="pb-4 text-sm text-gray-600">
         Note: This website has been built completely by our team and is not
-        using any templates of any kind, as per section D of the Preliminary
+        using any templates of any kind, as per section G of the Preliminary
         Round Regulations for Webmaster specified in the
         <span class="italic">
           TSA High School Virtual Competitive Events Guide for the 2021 National
@@ -116,8 +116,9 @@
               technologies that are actually used in the industry. While we did
               use Vue to build our site and got some good use out of it, we
               definitely didn't use it to its full potential, as most of the
-              site could've been built using simpler technologies. Our price
-              calculator, however, did justify using Vue some.
+              site could've been built using simpler technologies. Extracting
+              the header and footer into reusable components did make life
+              easier, though.
             </p>
           </div>
           <div class="mt-6 grid lg:grid-cols-2 gap-6 lg:gap-8">
@@ -146,32 +147,39 @@
           <h3 class="text-2xl font-bold text-gray-800">Graphics</h3>
         </div>
         <div class="mt-4 sm:mt-0 col-span-5">
-          <div class="grid lg:grid-cols-3 gap-6 lg:gap-8">
-            <div class="lg:col-span-2">
-              <p class="font-semibold text-gray-600 uppercase">Unsplash</p>
-              <p class="mt-2 text-gray-700">
-                All images on this site are free images from
-                <a class="text-blue-500" href="https://unsplash.com">
-                  Unsplash.
-                </a>
-                Unsplash has a very permissive
-                <a class="text-blue-500" href="https://unsplash.com/license">
-                  license
-                </a>
-                that grants users an "irrevocable, nonexclusive, worldwide
-                copyright license to download, copy, modify, distribute,
-                perform, and use photos from Unsplash for free, including for
-                commercial purposes, without permission from or attributing the
-                photographer or Unsplash." The service's huge stock of
-                high-quality photos makes it a hugely useful tool for our team.
-              </p>
-            </div>
+          <div>
+            <p class="font-semibold text-gray-600 uppercase">Unsplash</p>
+            <p class="mt-2 text-gray-700">
+              All images on this site are free images from
+              <a class="text-blue-500" href="https://unsplash.com">
+                Unsplash.
+              </a>
+              Unsplash has a very permissive
+              <a class="text-blue-500" href="https://unsplash.com/license">
+                license
+              </a>
+              that grants users an "irrevocable, nonexclusive, worldwide
+              copyright license to download, copy, modify, distribute, perform,
+              and use photos from Unsplash for free, including for commercial
+              purposes, without permission from or attributing the photographer
+              or Unsplash." The service's huge stock of high-quality photos
+              makes it a hugely useful tool for our team.
+            </p>
+          </div>
+          <div class="mt-6 grid lg:grid-cols-2 gap-6 lg:gap-8">
             <div>
               <p class="font-semibold text-gray-600 uppercase">Heroicons</p>
               <p class="mt-2 text-gray-700">
                 Heroicons is a very versatile and useful SVG icon set
                 specifically for UI design. The set was designed by the makers
                 of Tailwind CSS, and fits in perfectly with our design style.
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-gray-600 uppercase">Rose Logo</p>
+              <p class="mt-2 text-gray-700">
+                The Rose logo was designed from scratch entirely by a team
+                member.
               </p>
             </div>
           </div>
