@@ -20,7 +20,7 @@
               href="/documents/student-copyright-checklist.pdf"
               class="block mt-2 py-2 font-medium text-white border-2 border-transparent rounded sm:inline-block sm:mt-0 sm:ml-4 sm:px-4 lg:px-6 lg:py-3 lg:text-base hover:border-gray-500 text-center duration-100"
             >
-              Copyright Checklist
+              Copyright Documentation
             </a>
           </div>
         </div>
