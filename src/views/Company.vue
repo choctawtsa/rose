@@ -139,7 +139,7 @@
         <div
           class="h-64 min-w-full bg-center bg-cover xs:h-auto xs:col-span-4 sm:col-span-6 lg:col-span-7"
           style="
-            background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500);
+            background-image: url(https://images.unsplash.com/photo-1519181258491-889c2b001485?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500);
           "
         ></div>
       </section>
