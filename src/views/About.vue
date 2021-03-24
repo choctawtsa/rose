@@ -67,7 +67,7 @@
               or, you can check out its
               <a
                 class="text-blue-500"
-                href="https://github.com/tailwindcss/tailwindcss"
+                href="https://github.com/tailwindlabs/tailwindcss"
               >
                 GitHub repository.
               </a>
@@ -111,7 +111,9 @@
             <p class="font-semibold text-gray-600 uppercase">Vue.js</p>
             <p class="mt-2 text-gray-700">
               Our website was built with the front-end JavaScript framework
-              <a class="text-blue-500" href="https://vuejs.org"> Vue.js. </a>
+              <a class="text-blue-500" href="https://v3.vuejs.org/">
+                Vue.js.
+              </a>
               The decision to use Vue was really just to get used to
               technologies that are actually used in the industry. While we did
               use Vue to build our site and got some good use out of it, we
