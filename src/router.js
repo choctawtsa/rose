@@ -53,7 +53,7 @@ const router = createRouter({
     } else if (savedPosition) {
       return savedPosition;
     } else {
-      return { x: 0, y: 0 };
+      return { top: 0 };
     }
   },
 });
