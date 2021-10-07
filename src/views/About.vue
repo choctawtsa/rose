@@ -11,13 +11,13 @@
           </h1>
           <div class="pt-12 sm:pt-8">
             <a
-              href="/documents/plan-of-work-log.pdf"
+              href="/"
               class="block py-2 font-medium text-gray-900 bg-white border-2 border-transparent rounded sm:inline-block sm:px-4 lg:px-6 lg:py-3 lg:text-base hover:bg-gray-200 text-center duration-100"
             >
               Plan of Work Log
             </a>
             <a
-              href="/documents/student-copyright-checklist.pdf"
+              href="/"
               class="block mt-2 py-2 font-medium text-white border-2 border-transparent rounded sm:inline-block sm:mt-0 sm:ml-4 sm:px-4 lg:px-6 lg:py-3 lg:text-base hover:border-gray-500 text-center duration-100"
             >
               Copyright Documentation
